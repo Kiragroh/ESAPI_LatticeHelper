@@ -1,0 +1,19 @@
+{
+  "version": "1.3",
+  "build": 1,
+  "lastUpdate": "2026-07-28",
+  "lastChange": "Initiale Veröffentlichung als ESAPI_LatticeHelper mit automatischer Hot-/Cold-Grid-Erzeugung, heller GUI und Schutzlogik.",
+  "changelog": [
+    {
+      "build": 1,
+      "date": "2026-07-28",
+      "title": "ESAPI_LatticeHelper veröffentlicht",
+      "changes": [
+        "Automatische dreidimensionale Hot-/Cold-Grid-Erzeugung mit acht Phasen und beiden Paritäten.",
+        "Hot Spots werden am GTV-Rand und an ausgewählten PRV/OAR-Strukturen geschützt; Cold Spots benötigen standardmäßig mindestens 50 Prozent GTV-Überlappung.",
+        "Ausgabe erfolgt pro belegter Grid-Ebene und wechselt bei der Eclipse-Grenze von 99 Strukturen automatisch auf je eine Hot- und Cold-Gesamtstruktur.",
+        "Englische helle WPF-Oberfläche, Vorschau der Platzierungsanalyse, Screenshots und DOI-Literaturverweise ergänzt."
+      ]
+    }
+  ]
+}
