@@ -269,6 +269,13 @@ for review but no hidden minimum-volume filter is applied.
 10. Confirm creation only when the reported geometry is appropriate.
 11. Inspect every generated contour in all relevant planes before optimization.
 
+## ESAPI Getting Started
+
+New to Eclipse scripting or building binary ESAPI plug-ins? Start with my
+[ESAPI GettingStartedMaterial](https://drive.google.com/drive/folders/1-aYUOIfyvAUKtBg9TgEETiz4SYPonDOO),
+which collects introductory material, practical examples, and supporting ESAPI
+documentation.
+
 ## Build
 
 ### Requirements
@@ -290,27 +297,6 @@ No NuGet package is required.
 
 The assembly is named `LatticeGeneratorTool.esapi.dll`. Output directories are
 defined in `LatticeGeneratorTool.csproj`.
-
-## Tests
-
-`tests\LatticeGeometryMathTests.cs` verifies:
-
-- reference defaults and input validation
-- decimal-dot and decimal-comma parsing
-- analytical volume ratio for 31 reference hot spots
-- all eight half-spacing phases
-- indexed 3D checkerboard classification
-- PRV protection removing hot but retaining cold positions
-- target-border hot omission
-- 50% cold-spot GTV-overlap filtering and deterministic sphere sampling
-- output counting per occupied grid plane
-- automatic combined-output fallback at the Eclipse structure limit
-- phase selection without point trimming
-- grid-index preservation
-- protection against pathological allocation
-
-`tests\LatticeDialogHarness.cs` renders the WPF interface independently of ESAPI
-for standard, constrained, scrolled, and checked states.
 
 ## Literature
 

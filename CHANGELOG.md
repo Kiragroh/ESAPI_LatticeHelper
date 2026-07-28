@@ -38,8 +38,6 @@
 - Assigned magenta to hot outputs and blue to cold outputs.
 - Replaced dose fall-off controls with direct geometry, cold-envelope, protection,
   and naming parameters.
-- Added tests for checkerboard parity, PRV-specific hot omission, retained cold
-  positions, ratio selection without trimming, and grid-index preservation.
 
 ## 1.1 - 2026-07-28
 
@@ -54,4 +52,4 @@
 - Corrected OAR clearance to include the full sphere radius.
 - Kept existing final outputs until replacement geometry is complete and limited
   cleanup to owned exact structure IDs.
-- Added pure geometry tests, a WPF rendering harness, and expanded documentation.
+- Expanded the user and implementation documentation.
